@@ -1,6 +1,6 @@
 import streamlit as st
 from chatbot import predict_class, get_response, intents
-st.title("Atencion al Cliente")
+st.title("NextStep IA")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "first_message" not in st.session_state:
